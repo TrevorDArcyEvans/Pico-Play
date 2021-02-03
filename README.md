@@ -76,6 +76,6 @@ A few bits of _Raspberry Pi Pico_ sample code, borrowed from various places
   * output various system information
 * [temp.py](circuit-python/temp.py)
   * print CPU temp in degrees C+F
-  * reads CPU 'voltage'
+  * directly reads CPU 'temperature'
 
 </details>
