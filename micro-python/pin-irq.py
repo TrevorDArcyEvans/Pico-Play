@@ -23,7 +23,7 @@ def blink_1hz():
 sm = rp2.StateMachine(0, blink_1hz, freq = 2000, set_base = Pin(25))
 
 # set the IRQ handler to print the millisecond timestamp
-p25 = Pin(2, Pin.IN, Pin.PULL_UP)
+p25 = Pin(25, Pin.IN, Pin.PULL_UP)
 p25.irq(lambda pin: print("IRQ with flags:", pin.irq().flags in.IRQ_FALLING))
 
 #sm.irq(lambda p: print(int(time.ticks_ms()/1000)))
