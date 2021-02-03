@@ -1,3 +1,5 @@
+# https://github.com/raspberrypi/pico-micropython-examples/blob/master/blink/blink.py
+
 from machine import Pin, Timer
 
 led = Pin(25, Pin.OUT)

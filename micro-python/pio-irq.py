@@ -1,29 +1,36 @@
+# https://github.com/raspberrypi/pico-micropython-examples/blob/master/pio/pio_irq.py
+
 import time
 import rp2
 
 @rp2.asm_pio()
 def irq_test():
   wrap_target()
+
   nop() [31]
   nop() [31]
   nop() [31]
   nop() [31]
   irq(0)
+
   nop() [31]
   nop() [31]
   nop() [31]
   nop() [31]
   irq(1)
+
   nop() [31]
   nop() [31]
   nop() [31]
   nop() [31]
   irq(2)
+
   nop() [31]
   nop() [31]
   nop() [31]
   nop() [31]
   irq(3)
+
   wrap()
 
 rp2.PIO(0).irq(lambda pio: print(pio.irq().flags()))

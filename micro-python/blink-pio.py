@@ -1,3 +1,5 @@
+# https://github.com/raspberrypi/pico-micropython-examples/blob/master/pio/pio_blink.py
+
 import utime
 from rp2 import PIO, asm_pio
 from machine import Pin

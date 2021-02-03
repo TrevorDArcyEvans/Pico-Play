@@ -1,3 +1,5 @@
+# https://github.com/raspberrypi/pico-micropython-examples/blob/master/adc/temperature.py
+
 import machine
 import utime
 
@@ -9,4 +11,3 @@ while True:
     temp = 27 - (reading - 0.706) / 0.001721
     print(temp)
     utime.sleep(2)
-    
