@@ -6,8 +6,8 @@ import usb_hid
 print("(usage_page, usage)")
 for dev in usb_hid.devices:
     print("  ", (dev.usage_page, dev.usage))
-          
-          
+
+
 #(usage_page, usage)
 #   (1, 6)  --> Desktop, Keyboard
 #   (1, 2)  --> Desktop, Mouse

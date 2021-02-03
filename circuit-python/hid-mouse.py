@@ -18,4 +18,3 @@ mouse = Mouse(usb_hid.devices)
 x = 100
 y = 100
 mouse.move(x, y) 
-

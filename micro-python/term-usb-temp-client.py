@@ -18,5 +18,3 @@ while True:
             pico_data = ser.readline()
             pico_data = pico_data.decode("utf-8","ignore")
             print (pico_data[:-2])
-            
-            

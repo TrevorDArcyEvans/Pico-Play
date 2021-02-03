@@ -35,5 +35,3 @@ while True:
     else:
         print ("NO data")
         utime.sleep(2)
-        
-        
