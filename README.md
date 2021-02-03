@@ -23,7 +23,11 @@ A few bits of _Raspberry Pi Pico_ sample code, borrowed from various places
 * [os.py](micro-python/os.py)
   * output name of operating system
 * [pin-irq.py](micro-python/pin-irq.py)
-  * TODO  test
+  * blink LED in PIO
+  * PIO raises interrupt
+  * LED pin has interrupt handler
+  * **both** interrupts are handled in lambdas
+  * print interrupt flags + triggers
 * [pio-irq.py](micro-python/pio-irq.py)
   * PIO raises interrupt
   * interrupt is handled in a lambda
