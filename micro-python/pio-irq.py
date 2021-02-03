@@ -11,25 +11,25 @@ def irq_test():
   nop() [31]
   nop() [31]
   nop() [31]
-  irq(0)
+  irq(0)         # flags = 256
 
   nop() [31]
   nop() [31]
   nop() [31]
   nop() [31]
-  irq(1)
+  irq(1)         # flags = 512
 
   nop() [31]
   nop() [31]
   nop() [31]
   nop() [31]
-  irq(2)
+  irq(2)         # flags = 1024
 
   nop() [31]
   nop() [31]
   nop() [31]
   nop() [31]
-  irq(3)
+  irq(3)         # flags = 2048
 
   wrap()
 
