@@ -20,6 +20,8 @@ A few bits of _Raspberry Pi Pico_ sample code, borrowed from various places
   * toggle LED in a loop
 * [hello.py](micro-python/hello.py)
   * canonical _Hello, world!_
+* [os.py](micro-python/os.py)
+  * output name of operating system
 * [pin-irq.py](micro-python/pin-irq.py)
   * TODO  test
 * [pio-irq.py](micro-python/pio-irq.py)
@@ -32,6 +34,8 @@ A few bits of _Raspberry Pi Pico_ sample code, borrowed from various places
 * [pwm.py](micro-python/pwm.py)
   * implement PWM in software
   * fade LED using PWM
+* [sys.py](micro-python/sys.py)
+  * output various system information
 * [temp.py](micro-python/temp.py)
   * print CPU temp in degrees C
   * reads analog pin
