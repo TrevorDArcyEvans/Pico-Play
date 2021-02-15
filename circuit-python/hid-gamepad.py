@@ -12,6 +12,7 @@ gp = Gamepad(usb_hid.devices)
 # click gamepad buttons
 # button index is 1-based
 # icons in jstest-gtk will flash briefly
+# jstest-gtk maps to (0, 2, 3, 6)
 gp.click_buttons(1, 3, 4, 7)
 
 # move joysticks in range [-127, 127]
