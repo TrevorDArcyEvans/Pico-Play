@@ -66,6 +66,12 @@ A few bits of _Raspberry Pi Pico_ sample code, borrowed from various places
   * toggle LED in a loop
 * [hello.py](circuit-python/hello.py)
   * canonical _Hello, world!_
+* [hid-gamepad.py](circuit-python/hid-gamepad.py)
+  * emulates USB gamepad
+  * 16 button + 4 axes
+  * test on Linux with [jstest-gtk](https://jstest-gtk.gitlab.io/)
+  * buttons should really be interrupt driven
+  * axes should cache value and only report if value changes
 * [hid-keyboard.py](circuit-python/hid-keyboard.py)
   * emulates USB keyboard
   * inserts character into active window - BEWARE!
